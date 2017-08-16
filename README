@@ -2,3 +2,6 @@
 2、数据存入mongodb，初步实现分布式存储，大致实验了下效率，因做了延时爬取，半个小时爬取了1500多条数据。
 3、去重采用scrapy+redis去重，并且用Bloomfilter做了优化，去重队列和requests的种子队列分别存入redis,初步实现分布式爬取。
 
+环境：python2.7+win7
+运行：执行go.py文件则可
+
